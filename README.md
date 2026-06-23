@@ -19,3 +19,29 @@ An AI-powered full-stack SaaS platform built using the MERN stack. This tool aut
   * Automated Daily Refresh (Cron Jobs): Features an automated server cron scheduler running daily at 6:00 AM to automatically fetch updated search rankings.
 
   * Historic Metrics Log: Displays a timeline of previous scans, average SEO score tallies, daily quota allowances, and historical ranking position adjustments.
+
+<h1>Tech Stack & Dependencies</h1>
+
+<h2>Frontend (/client)</h2>
+
+Framework: React (Vite environment setup)
+
+Styling: Modern utility CSS, interactive dark/light toggles.
+
+Features: Dashboard architecture, stateful data visualizations, and history tables.
+
+<h2>Backend (/server)</h2>
+
+Runtime: Node.js
+
+Framework: Express.js
+
+Database: MongoDB Atlas (Mongoose ODM layer)
+
+Authentication: JSON Web Tokens (jsonwebtoken) & bcrypt
+
+Automation/Scraping: Browserless / Headless Cloud automation
+
+Artificial Intelligence: Google Gemini API SDK
+
+Scheduling: Node-cron framework (for automated 6:00 AM updates)
